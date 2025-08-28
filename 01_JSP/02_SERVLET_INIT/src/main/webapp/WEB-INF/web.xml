@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>02_SERVLET_INIT</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.xhtml</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.xhtml</welcome-file>
+  </welcome-file-list>
+  
+  <servlet> <!-- 서블릿 이름과 실제 자바 클래스 연결 -->
+  <servlet-name>C02Servlet</servlet-name> <!-- 서블릿을 구분하기 위한 논리적 이름 -->
+  <servlet-class>Servlet.C02Servlet_Test</servlet-class> <!-- 실제 실행할 서블릿 클래스 -->
+  </servlet>
+  <servlet-mapping> <!-- URL 패턴과 서블릿을 연결해주는 부분 -->
+  <servlet-name>C02Servlet</servlet-name> <!-- 위에서 등록한 servlet의 이름과 같아야함. 안 같으면 위에서 설정한 서블릿 클래스 적용 안됨 -->
+  <url-pattern>/TEST_02</url-pattern> <!-- 클라이언트가 호출할 때 사용할 URL 패턴 -->
+  </servlet-mapping>
+  
+  
+</web-app>
