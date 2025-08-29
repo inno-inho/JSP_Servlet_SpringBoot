@@ -22,7 +22,7 @@ public class C01Servlet_Test extends HttpServlet{
 	@Override
 	public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
 		// 요청시마다 동작하는 함수
-		System.out.println("srvice() invoke");
+		System.out.println("service() invoke");
 	}
 
 	@Override
