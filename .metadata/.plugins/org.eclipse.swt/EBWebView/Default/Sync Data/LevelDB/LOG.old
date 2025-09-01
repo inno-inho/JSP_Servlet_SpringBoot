@@ -1,2 +1,3 @@
-2025/08/25-09:12:08.136 570 Creating DB C:\Users\Administrator\Downloads\bigdataui\JSP_Servlet_SpringBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
-2025/08/25-09:12:08.150 570 Reusing MANIFEST C:\Users\Administrator\Downloads\bigdataui\JSP_Servlet_SpringBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/08/25-09:12:17.326 1598 Reusing MANIFEST C:\Users\Administrator\Downloads\bigdataui\JSP_Servlet_SpringBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/08/25-09:12:17.331 1598 Recovering log #3
+2025/08/25-09:12:17.331 1598 Reusing old log C:\Users\Administrator\Downloads\bigdataui\JSP_Servlet_SpringBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
